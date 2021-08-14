@@ -3,6 +3,9 @@ package com.zarembapawel.FuelCosts.converter;
 import com.zarembapawel.FuelCosts.entity.CarEntity;
 import com.zarembapawel.FuelCosts.model.Car;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CarConverter {
     
     public Car mapEntityToModel(CarEntity carEntity) {

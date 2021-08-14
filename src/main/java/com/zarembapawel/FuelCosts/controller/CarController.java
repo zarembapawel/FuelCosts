@@ -32,7 +32,7 @@ public class CarController {
     }
 
     @GetMapping(value = "/{id}")
-    public String getCar(@PathVariable Integer id) {
+    public Car getCar(@PathVariable Integer id) {
         return service.getCar(id);
     }
     
